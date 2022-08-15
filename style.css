@@ -1,0 +1,169 @@
+.navbar-container, .list, .button-group{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.navbar-container{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+li.list-item{
+    padding: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    position: relative;
+    right: 30px;
+}
+li:first-child{
+    font-weight: 700;
+    font-size: larger;
+    text-decoration: underline solid black 1.5px;
+    text-underline-offset: 0.2em;
+}
+
+.search-icon{
+    position: relative;
+    left: -155px;
+    top: 20px;
+}
+.search-icon>svg{
+    width: 20px;
+    height: 55px;
+}
+
+.nav-button{
+    position: relative;
+    left: -140px;
+    top: 31px;
+    padding: 1px 30px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 300;
+
+}
+
+/* width of icons */
+.navbar-container>div>img{
+    width: 117px;
+    height: 35;
+    position: relative;
+    top: 25px;
+}
+.globe>img{
+    width: 47px;
+    height: 48px;
+}
+.star>img{
+    width: 42px;
+    height: 43px;
+}
+
+.star-2>img{
+    width: 32px;
+    height: 33px;
+}
+.person>img{
+    width: 320px;
+    height: 400px;
+}
+
+.square>img{
+    width: 280px;
+    height: 281px;
+}
+
+.icons>span>img{
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+}
+
+/* positioning everything */
+.star{
+    position: relative;
+    left: 60%;
+    top: -220px;
+}
+.star-2{
+    position: relative;
+    left: 12%;
+    top: 123px;
+}
+
+.globe{
+    position: relative;
+    left: 23%;
+    top: -250px;
+}
+.square{
+    position: relative;
+    left: 11%;
+    top: 155px;
+}
+.person{
+    position: relative;
+    top: -300px;
+    margin-left: 49px;
+}
+.hero-heading{
+    position: relative;
+    left: 38%;
+    top: -660px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size:xxx-large;
+
+}
+
+.hero-description{
+    position: relative;
+    left: 40%;
+    top: -670px;
+    width: 43%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: small;
+}
+
+.email{
+    position: relative;
+    left: 55%;
+    top: -620px;
+}
+
+.button-email{
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-family: 'Orbitron', sans-serif;
+    border-width: thin;
+}
+
+.button-join{
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: white;
+    border-width: thin;
+    margin-left: 5px;
+}
+
+.contact-heading{
+    position: relative;
+    left: 62%;
+    top: -580px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.icons{
+    position: relative;
+    left: 58%;
+    top: -600px;
+    font-size: smaller;
+}
